@@ -7,9 +7,6 @@ const readFileSync = (file)=>{
         console.log("unable to read file");        
     }
 }
-readFileSync("./example.txt");
-
-
 
 const appendFileSync = (file,data)=>{
     try {
@@ -19,14 +16,23 @@ const appendFileSync = (file,data)=>{
         console.log("Unable to append file");       
     }
 }
-// appendFileSync("./example.txt","Appended data");
 
 const writeFileSync = (file, data) => {
     try {
         fs.writeFileSync(file, data);
         console.log("File has been created successfully");
     } catch (error) {
-       console.log("Unable to write file.")
+        console.log("Unable to write file.")
     }
 }
-// writeFileSync("./example.txt", "This data has been written through sync function of fs module");
+console.log("before read");
+readFileSync("./example.txt");
+console.log("after read");
+
+console.log("before write");
+writeFileSync("./example.txt", "This data has been written through sync function of fs module");
+console.log("after write");
+
+console.log("before append");
+appendFileSync("./example.txt","Appended data");
+console.log("after append");

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Romain McCurt",
+    "email": "rmccurt0@dailymail.co.uk",
+    "password": "12345678",
+    "gender": "Male"
+  },
+  {
+    "name": "Sadie Sotworth",
+    "email": "ssotworth1@cmu.edu",
+    "password": "jG4*$TDI{DU",
+    "gender": "Female"
+  },
+  {
+    "name": "Aurelie Trenbey",
+    "email": "atrenbey2@redcross.org",
+    "password": "fY8`x5OMY~1_5",
+    "gender": "Female"
+  },
+  {
+    "name": "Jaymee Newlan",
+    "email": "jnewlan3@who.int",
+    "password": "vU0$iBH~R,e5v",
+    "gender": "Female"
+  },
+  {
+    "name": "Megen Middle",
+    "email": "mmiddle4@deliciousdays.com",
+    "password": "gV6%rPVJ$w",
+    "gender": "Female"
+  },
+  {
+    "name": "Terence Syce",
+    "email": "tsyce5@last.fm",
+    "password": "dF4?JtD?8",
+    "gender": "Male"
+  },
+  {
+    "name": "Marjorie Featherstonhaugh",
+    "email": "mfeatherstonhaugh6@google.fr",
+    "password": "hY4\"eW|453m\\0",
+    "gender": "Female"
+  },
+  {
+    "name": "Veronica Zimmer",
+    "email": "vzimmer7@usgs.gov",
+    "password": "gW4#.MBF1",
+    "gender": "Female"
+  },
+  {
+    "name": "Bunnie Bampton",
+    "email": "bbampton8@answers.com",
+    "password": "dL9{~TPPQ$epN",
+    "gender": "Female"
+  },
+  {
+    "name": "Mariam Bilbrook",
+    "email": "mbilbrook9@flickr.com",
+    "password": "xS5#6fB?i6GG",
+    "gender": "Genderfluid"
+  }
+]

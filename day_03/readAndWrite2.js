@@ -1,3 +1,4 @@
+import { log } from "console";
 import fs from "fs/promises";
 const readFile = async(file)=>{
     try {
@@ -7,27 +8,33 @@ const readFile = async(file)=>{
        console.log("unable to read");        
     }
 }
-readFile("./example2.txt");
-
-
 
 const appendFile = async(file,data)=>{
     try {
-       await fs.appendFile(file,data);
+        await fs.appendFile(file,data);
         console.log("File has been appended successfully");        
     } catch (error) {
         console.log("Unable to append file");        
     }
 }
-// appendFile("./example2.txt",` appended data`);
-
 
 const writeFile = async(file,data)=>{
     try {
-       await fs.writeFile(file,data);
+        await fs.writeFile(file,data);
         console.log("File has been written successfully");        
     } catch (error) {
         console.log("Unable to write file");        
     }
 }
-// writeFile("./example2.txt",`This data has been written via "fs.writeFile()"`);
+
+console.log("before read");
+readFile("./example2.txt");
+console.log("after read");
+
+console.log("before write");
+writeFile("./example2.txt",`This data has been written via "fs.writeFile()"`);
+console.log("after rwrite");
+
+console.log("before append");
+appendFile("./example2.txt",` appended data`);
+console.log("after append");
