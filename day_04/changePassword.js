@@ -5,7 +5,7 @@ const changePassword = async (userDetails, FILE) => {
     if (users.length === 0)
         return { message: "User is not existing. PLease register" };
 
-    const user = users.find((user) => user.email === userDetails.email);
+    const user = users.find((user) => user.email.toLowerCase() === userDetails.email.toLowerCase());
     if (!user) return { message: "User is not existing. PLease register" };
 
     const updatedData = users.map((user) =>
